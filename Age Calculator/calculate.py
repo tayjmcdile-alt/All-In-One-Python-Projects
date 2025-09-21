@@ -18,8 +18,8 @@ def month_days(month, leap_year):
         return 28
 
 
-name = input("Please enter your name: ")
-age = input("Please enter your age: ")
+name = input("Please enter your first and last name: ")
+age = input("Please enter your age in years: ")
 localtime = time.localtime(time.time())
 
 year = int(age)
