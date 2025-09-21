@@ -14,10 +14,10 @@ def calculate_split(total_amount: float, number_of_people: int, currency: str) -
 def main() -> None:
     try:
         # Input for total amount
-        total_amount: float = float(input('Enter the total amount of the expense: '))
+        total_amount: float = float(input('Please enter the total amount of money being spent: '))
         
         # Input for number of people
-        number_of_people: int = int(input('Enter the number of people sharing the expense: '))
+        number_of_people: int = int(input('Please nter the number of people you want to split it between: '))
         
         # Call the function to calculate the split with currency set to rupees
         calculate_split(total_amount, number_of_people, currency="₹")
