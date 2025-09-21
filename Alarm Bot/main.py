@@ -66,5 +66,5 @@ second.set(seconds[0])
 secs = OptionMenu(frame, second, *seconds)
 secs.pack(side=LEFT)
 
-Button(root,text="Set Alarm",font=("Times New Roman", 15),command=Threading).pack(pady=20)
+Button(root,text="Set Alarm",font=("Times New Roman", 30),command=Threading).pack(pady=20)
 root.mainloop()
