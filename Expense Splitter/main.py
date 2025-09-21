@@ -8,7 +8,7 @@ def calculate_split(total_amount: float, number_of_people: int, currency: str) -
     # Print the results
     print(f'Total expenses: {currency}{total_amount:,.2f}')
     print(f'Number of people: {number_of_people}')
-    print(f'Each person should pay: {currency}{share_per_person:,.2f}')
+    print(f'Each persons expenses will be: {currency}{share_per_person:,.2f}')
 
 
 def main() -> None:
