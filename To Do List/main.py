@@ -2,7 +2,7 @@ from tkinter import *
 import sqlite3
 
 root = Tk()
-root.title("To-Do List App")
+root.title("To-Do List:))")
 root.geometry("400x400")
 
 conn = sqlite3.connect('todolist.db')
